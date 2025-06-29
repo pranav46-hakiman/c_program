@@ -1,0 +1,25 @@
+Task: You have to print the character,'ch' , in the first line. Then print 's'in next line. In the last line print the sentence, 'sen'.
+
+Code:
+#include <stdio.h>
+
+int main() {
+#Varaiable declaration
+    char ch;
+    char str[100];
+    char sentence[100];
+    scanf("%c",&ch);
+    printf("%c\n",ch);
+    getchar();
+    scanf("%s",&str);
+    printf("%s\n",str);
+    getchar();
+    fgets(sentence, sizeof(sentence), stdin);
+    printf("%s",sentence);
+    return 0;
+}
+
+Output:
+C
+Language
+Welcome To C!!
