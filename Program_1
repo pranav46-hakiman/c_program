@@ -6,3 +6,6 @@ Code:
 void main() {
      printf("Hello, World!");
 }
+
+Output:
+Hello, World!
