@@ -1,0 +1,31 @@
+Task: Write a function int max_of_four(int a, int b, int c, int d) which reads four arguments and returns the greatest of them.
+
+Input Format: Input will contain four integers -a,b,c,d  , one on each line.
+
+Code:
+#include <stdio.h>
+
+int max(int x, int y){
+    return (x > y) ? x : y;
+
+}
+
+int max_of_four(int a, int b, int c, int d) {
+    return max(max(a, b), max(c, d));
+}
+
+
+int main() {
+    int a, b, c, d;
+    
+    // Read four integers, one per line
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    scanf("%d", &d);
+    
+    // Call the function and print the result
+    printf("%d\n", max_of_four(a, b, c, d));
+    
+    return 0;
+}
