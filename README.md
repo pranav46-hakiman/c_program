@@ -8,3 +8,9 @@ C Journey
 3. Sum and difference of two numbers
 
 4. Function in C
+
+5. Conditional Statements in C
+
+6. Negative/Positive Number
+
+7. Leap Year
