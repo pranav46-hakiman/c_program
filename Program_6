@@ -1,0 +1,23 @@
+Task: Positive / negative number:
+
+Code:
+#include <stdio.h>
+void main(){
+  int num;
+  printf("enter the number:");
+  scanf("%d",&num);
+  if (num>0){
+     printf("Positive");
+  }else if (num == 0){
+     printf("Neutal");
+  }else {
+     printf("Negative");
+  }
+}
+
+Output:
+Enter a number: 5
+Positive
+
+Enter a number: -5
+Negative
