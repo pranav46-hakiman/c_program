@@ -1,0 +1,15 @@
+Task: Check whether the number is ODD / EVEN:
+
+Code: 
+#include <stdio.h>
+void main() {
+    int num;
+    printf("enter the num:");
+    scanf("%d",&num);
+    if (num%2 == 0){
+       printf("Even Number");
+    } else {
+       printf("Odd Number");
+    }
+}
+    
