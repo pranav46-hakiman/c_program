@@ -11,6 +11,8 @@ C Journey
 
 5. Conditional Statements in C
 
-6. Negative/Positive Number
+6. Negative / Positive Number
 
 7. Leap Year
+
+8. Odd / Even number
