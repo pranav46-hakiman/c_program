@@ -1,0 +1,28 @@
+Task: Leap Year
+
+Code:
+#include <stdio.h>
+void main() {
+   int year;
+   printf("enter the year");
+   scanf("%d",&year);
+//Nested if
+   if (year%100 == 0){
+      if (year%400 == 0){
+         printf("Leap Year");
+      }else {
+         printf("Not a leap year");
+      }
+   }else{ 
+      if (year%4 == 0){
+         printf("Leap Year");
+      }else {
+         printf("Not a leap year");
+      }
+
+--- Output:
+enter a year: 2024
+leap year
+
+enter a year: 2021
+not a leap year
