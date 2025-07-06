@@ -18,3 +18,5 @@ C Journey
 8. Odd / Even number
 
 9. Calculator app
+
+10. Switch Case: Calaculator app
