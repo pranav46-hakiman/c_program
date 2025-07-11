@@ -20,3 +20,5 @@ C Journey
 9. Calculator app
 
 10. Switch Case: Calaculator app
+
+11. Sum of n natural numbers
