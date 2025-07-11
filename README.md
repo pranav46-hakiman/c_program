@@ -22,3 +22,5 @@ C Journey
 10. Switch Case: Calaculator app
 
 11. Sum of n natural numbers
+
+12. For Loop 
