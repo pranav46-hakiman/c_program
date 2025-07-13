@@ -2,35 +2,38 @@ Switch Case: Calaculator app
 
 Code: 
 #include <stdio.h>
-#include <conio.h>
 
 void main() {
    int num1, num2;
    char op;
 
-   printf("enter num1:");
-   scanf("%d",&num1);
+   printf("Enter num1: ");
+   scanf("%d", &num1);
 
-   printf("enter num2:");
-   scanf("%d",&num2);
+   printf("Enter num2: ");
+   scanf("%d", &num2);
 
-   printf("enter op:");
-   scanf("%c",&op);
+   printf("Enter operator (+, -, *, /): ");
+   scanf(" %c", &op);  // <-- Fixed: space before %c
 
    switch(op) {
        case '+':
-           printf("Sum:",num1+num2);
+           printf("Sum: %d", num1 + num2);
            break;
-       case ' ':
-           printf("Diff:",num1-num2);
+       case '-':
+           printf("Diff: %d", num1 - num2);
            break;
-       case ' ':
-           printf("Quo:",num1/num2);
+       case '/':
+           if (num2 != 0)
+               printf("Quo: %d", num1 / num2);
+           else
+               printf("Cannot divide by zero");
            break;
-       case ' ':
-           printf("Pro:",num1*num2);
+       case '*':
+           printf("Prod: %d", num1 * num2);
            break;
        default:
-          printf("Invalid Operator");
-    }
+           printf("Invalid Operator");
+   }
 }
+
