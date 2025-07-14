@@ -1,0 +1,36 @@
+Program 14: Amstrong number
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int n, original, copy, digit = 0, sum = 0;
+    
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    original = n;
+    copy = n;
+
+    // Count the number of digits
+    while (copy > 0) {
+        digit++;
+        copy = copy / 10;
+    }
+
+    copy = n;
+
+    // Calculate sum of digits raised to the power 'digit'
+    while (copy > 0) {
+        int rem = copy % 10;
+        sum += pow(rem, digit);
+        copy = copy / 10;
+    }
+
+    if (sum == original) {
+        printf("Armstrong Number.\n");
+    } else {
+        printf("Not an Armstrong Number.\n");
+    }
+
+    return 0;
+}
