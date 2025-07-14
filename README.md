@@ -23,4 +23,12 @@ C Journey
 
 11. Sum of n natural numbers
 
-12. For Loop 
+12. For Loop
+
+13. Sum of digits of number
+
+14. Amstrong Number
+
+15. Palindrome Number
+
+16. Prime number
