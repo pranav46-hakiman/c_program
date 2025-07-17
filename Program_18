@@ -1,0 +1,24 @@
+Program 18: Max and min of an element - array.
+#include <stdio.h>
+
+void main(){
+    int n, i, arr[50], min, max;
+    printf("enter n:");
+    scanf("%d",&n);
+
+    for (i=0; i<n; i++){
+        printf("Element %d:",i);
+        scanf("%d",&arr[i]);
+    }
+    min=arr[0];
+    max=arr[0];
+    for (i=0; i<n; i++){
+        if (arr[i]>max){
+            max=arr[i];
+        } if (arr[i]<min){
+            min=arr[i];
+        }
+    }
+    printf("Max:%d",max);
+    printf("Min:%d",min);
+}
