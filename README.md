@@ -32,3 +32,11 @@ C Journey
 15. Palindrome Number
 
 16. Prime number
+
+17. Factorial Number
+
+18. Maximum and Minimum element - array
+
+19. Avg and sum of heights in the class - array
+
+20. Strings - Combine, Compare and reverse.
