@@ -1,0 +1,19 @@
+Program 19: Find the sum and avg of heights of students in the class.
+
+#include <stdio.h>
+
+void main(){
+    int n, i, avg, sum=0,  heights[40];
+    printf("enter n:");
+    scanf("%d", &n);
+
+    for (i=0; i<n; i++){
+        printf("Element %d:",i);
+        scanf("%d",&heights[i]);
+        sum=sum+heights[i];
+    }
+    printf("Sum :%d",sum);
+    avg = sum/n;
+    printf("Avg:%d",avg);
+
+}
