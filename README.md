@@ -40,3 +40,9 @@ C Journey
 19. Avg and sum of heights in the class - array
 
 20. Strings - Combine, Compare and reverse.
+
+21. 2D - Array
+
+22. Addition of Matrix
+
+23. Transpose of Matrix
