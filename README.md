@@ -46,3 +46,21 @@ C Journey
 22. Addition of Matrix
 
 23. Transpose of Matrix
+
+24. Functions
+
+25. Factorial using recursive function
+
+26. Bitwise Operators
+
+27. printing patterns using loops
+
+28. 1D array
+
+29. Array reversal
+
+30. Printing tokens
+
+31. Digit frequency
+
+32. Dynamic array
